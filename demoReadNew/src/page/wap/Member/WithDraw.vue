@@ -3,7 +3,7 @@
         <navbar title="兑换" back="/Member/MyCenter"></navbar>
           <section class="WithDraw">
             <div class="header">
-                <p>目前账户可用余额</p>
+                <p>目前账户可用</p>
                 <h3>￥{{balance}}</h3>
                 <!-- <a href="javascript:;" class="blanceHistory">记录</a> -->
             </div>
@@ -85,7 +85,7 @@ export default {
             // if (this.UserInfo && this.moneyNum > this.balance) {
             //     // that.$store.commit(TYPES.ALERT_TIP, {
             //     //     show: true,
-            //     //     content: `余额不足请重新输入`
+            //     //     content: `请重新输入`
             //     // });
             //     return;
             // }

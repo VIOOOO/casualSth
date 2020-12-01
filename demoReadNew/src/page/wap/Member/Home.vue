@@ -520,7 +520,7 @@ export default {
             loginDis: "",
             depList: [
                 { department_id: 1, department_name: "热点", type: "top" },
-                { department_id: 2, department_name: "游戏", type: "youxi" },
+                { department_id: 2, department_name: "娱乐", type: "youxi" },
                 { department_id: 3, department_name: "", type: "yule" },
                 { department_id: 4, department_name: "社会", type: "shehui" },
                 { department_id: 5, department_name: "国内", type: "guonei" },

@@ -40,7 +40,7 @@ export default {
                 resolve(data)
                 commit("UserInfo", data)
                 /**
-                 * 刷新余额
+                 * 刷新
                  * 
                  */
                 // new service.MemberGetBalance().then(res => {

@@ -4,7 +4,7 @@
         <section class="WithDraw">
             <div class="header">
                 <!-- <i class="icon iconfont icon-gantanhao--"></i> -->
-                提示:选择的第三方和天宇头条没有任何联系,请保管好自己的余额!
+                提示:选择的第三方和天宇头条没有任何联系!
             </div>
             <ul class="paylist">
                 <li v-for="(item,index) in list" :key="index" @click="jumpLink(item)">
